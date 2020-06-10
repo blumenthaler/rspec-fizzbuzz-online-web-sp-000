@@ -10,6 +10,6 @@ def fizzbuzz(user_input)
   elsif user_input % 3 == 0
     "Fizz"
   else
-    nil
+    return nil
   end
 end
