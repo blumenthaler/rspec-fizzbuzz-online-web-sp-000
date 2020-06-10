@@ -1,8 +1,10 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
 
+user_input = gets.strip
+
 def fizzbuzz(user_input)
-  if int % 3 == 0
+  if user_input % 3 == 0
     "Fizz"
   end
 end
